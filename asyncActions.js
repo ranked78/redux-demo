@@ -58,4 +58,10 @@ const reducer = (state = initialState, action) => {
     }
 }
 
+const fetchUsers = () => {
+    return function(ditspatch){
+        
+    }
+}
+
 const store = createStore(reducer, applyMiddleware(thunkMiddleware))
